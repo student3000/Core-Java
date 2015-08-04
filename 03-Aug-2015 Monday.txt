@@ -1,0 +1,12 @@
+1. Data-types
+	Casting
+		narrowing
+		widening
+2. Operators
+
+3. Loop
+
+4. Conditional
+	if
+	if... else if...
+	switch...case...
