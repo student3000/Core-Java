@@ -1,0 +1,30 @@
+Access Modifier
+	public - everywhere
+	protected - within package - inheritance
+	private - within class
+	default - within package
+	
+	----- private , default, protected, public (strict to less-strict)
+	
+	package p1;
+	
+	import p2.B;
+	import p2.D;
+
+	import p2.*;
+	
+	class A extends B{
+	
+			B b = new B(); // it works because of inheritance
+			//C c = new C(); // it wont work, because default must not go out of scope..
+			D d = new D(); // it work...
+	
+	}
+	
+	package p2;
+	protected class B{
+	}
+	class C{
+	}
+	public class D{
+	}
