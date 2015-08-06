@@ -1,0 +1,15 @@
+class ...{
+	
+	int a; // instance variable
+	static int b; // class/static variable..
+	
+	void main(){
+		final int x; // local variable only final modifier can comes, otherwise compilation failure
+		
+	}
+	
+}
+
+modifier -> prefix
+	access-modifier
+	non-access modifier

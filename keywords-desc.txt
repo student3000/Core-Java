@@ -1,0 +1,49 @@
+--------------------------------------------------------------------
+								static
+
+1.	member data - it's single copy maintain for N-number of object
+2.	member method - 
+		- it must consider only static member-data.
+		- can call to other static methods only.
+		
+3. static property(data+method) can be accessible without create any object..
+		for example : 0		
+		
+4. you can never user 'this' keyword inside 'static' block/method		
+		
+-------------------------------------------------------------=----
+								this( current object/instance )		
+
+class ClassName{
+	int var;
+	
+	ClassName(int var){
+		this.var = var;
+	}
+	
+		p s v m(..){
+		
+				new ClassName(5);
+				
+				new ClassName(54);
+				
+				new ClassName(56);
+		
+		}
+
+}			
+
+
+-------------------------------------------------------------
+
+							final 
+			
+e.g. final int a = 5;
+			a = 7 // compilation fail...
+			
+--------------------------------------------------------------
+
+							strictfp
+
+ floating point will manage by IEEE 754  standard							
+			

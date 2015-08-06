@@ -1,0 +1,13 @@
+-------- Constructor --------
+
+Constructor object = new Constructor();
+
+object.method();
+
+new Constructor();
+
+1. same name as a class name 
+2. constructor does not have any return type like any method...
+3. constructor automatically gets call, when new object creating...
+4. if user supply return type to constructor , then it will convert into normal
+	method.... and it needs object to invoke..
