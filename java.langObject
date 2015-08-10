@@ -1,0 +1,15 @@
+Parent class of all class....
+
+
+java.lang.Object
+
+		1. clone()
+		2. equals()
+		3. hashCode()
+		4. toString()
+		5. wait() , wait(long nanosecond) , wait(long nanoseconde, long milisecond)
+		6. notify()
+		7. notifyAll()
+		8. finallize()
+		
+		

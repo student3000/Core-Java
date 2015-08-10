@@ -1,0 +1,53 @@
+-------------------- Inheritance ( Re-Usablity ) -------------------
+
+Private -> it will not inheritable
+default -> up to package data will move	
+Protected -> will be available only upto next chield class only.
+public -> freely available into anywhere
+
+
+Parent-chield			Base  -Derived
+						
+
+package A;
+class Human{
+	.....
+	protected int protectedIntVariable;
+	
+	void humanMethod(){
+		.....
+	}
+	
+}
+
+
+package B;
+class Person1 extends Human{
+		
+		...
+		
+		s.o.p(protectedIntVariable);
+		
+		humanMethod();
+		
+}
+
+class Person2 extends Person1{
+	...
+}
+
+			 				
+	Human [ humanClassMethod() 	]		 
+	-> Person1 [ personClassMethod() ]
+		-> Person2	[ person2ClassMethod() ]		
+						
+						
+	 public class MainMethodClass{
+	 
+		Person2 person2Object = new Person2();
+			person2Object.humanClassMethod();
+			person2Object.personClassMethod();
+			person2Object.person2ClassMethod();
+		
+	 }
+
