@@ -1,0 +1,15 @@
+------------ Naming Convention Rules --------
+
+0. package name in small letters
+	i.e. java.lang
+	
+1. class name start with Capital Letter
+	i.e. Student, Demo
+	sub-word start with Capital i.e. HelloWorld
+	
+2. member data/method name start with lower-letter of alphabet 
+	sub-word start with Capital i.e. newVariableName, printHelloWorld()
+	
+3. FINAL member-data whole name written in CAPITAL letters
+	sub-word concat with underscore i.e. MAX_VALUE
+	

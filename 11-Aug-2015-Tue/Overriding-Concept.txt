@@ -1,0 +1,8 @@
+A
+	void print(){}
+	
+->B extends A
+		void print(){}
+		
+		
+ overriding exist it means automatically assume inheritence is there...		

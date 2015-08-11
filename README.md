@@ -3,7 +3,5 @@ Core Java Information
 
 Created by : Vishal Gajera
 
-This repository creating to help students who can learnt 
-from remote-location as well as reduce paper-work and becomes more sophisticated in terms of technical.
-
-
+This repository created based upon to help student/beginner who can learn(conceptually) 
+from remote-location as well as reduce paper-work and becomes more sophisticated in terms of technically.

@@ -5,7 +5,8 @@
 
 
 interface Sample1{
-	void print();
+	// public abstract - by default interface method's modifier
+	 void print();
 }
 
 interface Sample2{

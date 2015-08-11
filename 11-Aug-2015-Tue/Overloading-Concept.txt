@@ -1,0 +1,7 @@
+------------------ polymorphism --------------
+
+0. overloading used the concept of polymorphism
+1. same name method with different number of argument or types...
+2. always overloading happens into one class only 
+	it's possible into 2-different class if inheritance is exist
+
